@@ -35,18 +35,19 @@ header a{
 main {
   height: calc(100vh - 125px);
   padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 15px;
   display: flex;
   flex-wrap: wrap;
   background-color: black;
   overflow: auto;
+  margin: 0 auto;
 }
 
 .photo{
   position: relative;
-  width: 290px;
+  min-width: 290px;
   height: 200px;
-  margin: 5px;
+  margin-left: 5px;
   width: calc(100% / 7 - 10px);
 }
 
