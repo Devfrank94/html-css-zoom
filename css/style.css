@@ -7,3 +7,161 @@
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+header{
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+header a{
+  color: white;
+  height: 30px;
+  line-height: 18px;
+  font-size: 14px;
+  background-color: grey;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+main {
+  height: calc(100vh - 125px);
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  overflow: auto;
+}
+
+.photo{
+  position: relative;
+  width: 290px;
+  height: 200px;
+  margin: 5px;
+  width: calc(100% / 7 - 10px);
+}
+
+.information a{
+  color: white;
+  position: absolute;
+  background-color: black;
+  padding: 2px;
+  filter: opacity(0.4);
+  bottom: 4px;
+  left: 0;
+}
+
+/* stile footer con icone */
+
+.menu-bottom {
+  height: 75px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.block-start, .block-center, .block-end{
+  display: flex;
+  flex-shrink: 0;
+}
+
+.microphone{
+  font-size: 18px;
+  color: white;
+  margin-left: 18px;
+}
+
+.arrow{
+  padding-left: 18px;
+  color: white;
+  font-size: 10px;
+}
+
+.title-icon{
+  color: white;
+  padding-left: 12px;
+}
+
+.polling{
+  font-size: 18px;
+  color: white;
+  margin-left: 18px;
+}
+
+.share{
+  font-size: 18px;
+  color: green;
+  margin-left: 50px; 
+}
+
+.userplus{
+  font-size: 18px;
+  color: white;
+  margin-left: 25px;
+}
+
+.manage{
+  font-size: 18px;
+  color: white;
+  margin-left: 70px;
+}
+
+.chat{
+  font-size: 18px;
+  color: white;
+  margin-left: 25px;
+}
+
+.comment{
+  color: white;
+  padding-left: 45px;
+}
+
+.video{
+  margin-left: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+.rec{
+  margin-left: 30px;
+  font-size: 18px;
+  color: white;
+}
+
+.breakout{
+  margin-left: 60px;
+  font-size: 18px;
+  color: white;
+}
+
+.more{
+  margin-left: 20px;
+  font-size: 18px;
+  color: white;
+}
+
+.menu-bottom i{
+  padding-bottom: 7px;
+}
+
+.end{
+  color: red;
+  font-size: 12px;
+  background-color: rgb(74, 74, 74);
+  height: 75px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
