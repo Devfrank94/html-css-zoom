@@ -77,80 +77,66 @@ main {
   flex-shrink: 0;
 }
 
-.microphone{
-  font-size: 18px;
+.microphone,.arrow,.title-icon,.polling,.userplus,.manage,.chat,.comment,.video,.rec,.breakout,.more{
   color: white;
+}
+
+.microphone,.polling,.userplus,.manage,.chat,.video,.rec,.breakout,.more{
+  font-size: 18px;
+}
+
+.microphone{
   margin-left: 18px;
 }
 
 .arrow{
   padding-left: 18px;
-  color: white;
   font-size: 10px;
 }
 
 .title-icon{
-  color: white;
   padding-left: 12px;
 }
 
 .polling{
-  font-size: 18px;
-  color: white;
   margin-left: 18px;
 }
 
 .share{
-  font-size: 18px;
   color: green;
   margin-left: 50px; 
 }
 
 .userplus{
-  font-size: 18px;
-  color: white;
   margin-left: 25px;
 }
 
 .manage{
-  font-size: 18px;
-  color: white;
   margin-left: 70px;
 }
 
 .chat{
-  font-size: 18px;
-  color: white;
   margin-left: 25px;
 }
 
 .comment{
-  color: white;
   padding-left: 45px;
 }
 
 .video{
   margin-left: 40px;
-  font-size: 18px;
-  color: white;
 }
 
 .rec{
   margin-left: 30px;
-  font-size: 18px;
-  color: white;
 }
 
 .breakout{
   margin-left: 60px;
-  font-size: 18px;
-  color: white;
 }
 
 .more{
   margin-left: 20px;
-  font-size: 18px;
-  color: white;
 }
 
 .menu-bottom i{
