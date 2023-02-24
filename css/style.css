@@ -27,7 +27,7 @@ header a{
   font-size: 14px;
   background-color: grey;
   margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
   border-radius: 5px;
   padding: 5px;
 
@@ -40,6 +40,8 @@ main {
   padding-right: 15px;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   background-color: black;
   overflow: auto;
   margin: 0 auto;
@@ -50,6 +52,7 @@ main {
   min-width: 290px;
   height: 200px;
   margin-left: 5px;
+  margin-bottom: 5px;
   width: calc(100% / 7 - 10px);
 }
 
