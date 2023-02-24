@@ -8,6 +8,7 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* stile header con button */
 header{
   height: 50px;
   display: flex;
@@ -32,6 +33,7 @@ header a{
 
 }
 
+/* stile main */
 main {
   height: calc(100vh - 125px);
   padding-left: 25px;
@@ -62,7 +64,6 @@ main {
 }
 
 /* stile footer con icone */
-
 .menu-bottom {
   height: 75px;
   background-color: #222222;
